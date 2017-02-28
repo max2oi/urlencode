@@ -29,7 +29,6 @@ string UrlDecode(const string& szToDecode)
                     || hex == 0x3A || hex == 0x3B|| hex == 0x3D || hex == 0x3f || hex == 0x40 || hex == 0x5f
                     ))
                 {
-                  if (hex == 0x2b)
                   result += char(hex);
                   i += 2;
                 }
